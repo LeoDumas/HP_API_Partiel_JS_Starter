@@ -122,6 +122,13 @@ footer p {
   height: 136px;
 }
 
+.houses img:hover {
+  width: 121px;
+  height: 136px;
+  background-color: #FFF6E6;
+  border-radius: 100%;
+}
+
 .characters {
   display: flex;
   justify-content: space-around;
@@ -141,8 +148,26 @@ footer p {
   object-fit: cover;
 }
 .characters p {
+  font-size: 20px;
+  font-weight: 700;
   text-align: center;
   color: var(--Gold, #b99049);
+}
+
+.characters .character_box.gryffindor img:hover {
+  border-color: #B71713;
+}
+
+.characters .character_box.slytherin img:hover {
+  border-color: #124B10;
+}
+
+.characters .character_box.ravenclaw img:hover {
+  border-color: #078CB1;
+}
+
+.characters .character_box.hufflepuff img:hover {
+  border-color: #B99049;
 }
 
 /* PAGE PERSO */
