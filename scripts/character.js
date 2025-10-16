@@ -42,7 +42,7 @@ class Character {
         this.actor = actor;
         this.alternate_actors = alternate_actors;
         this.alive = alive;
-        this.image = image;
+        this.image = image || "./images/characters/troll.jpg"; // Troll = image par defaut si image="" dans l'api
     }
 }
 
