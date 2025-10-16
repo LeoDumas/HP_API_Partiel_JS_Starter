@@ -218,6 +218,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 32px;
 }
 
 @media screen and (max-width: 425px) {
