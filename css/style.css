@@ -154,6 +154,10 @@ footer p {
   color: var(--Gold, #b99049);
 }
 
+.characters a {
+  text-decoration: none;
+}
+
 .characters .character_box.gryffindor img:hover {
   border-color: #B71713;
 }
@@ -179,15 +183,18 @@ footer p {
   padding: 50px;
   display: flex;
 }
+
 .page_perso .perso__right {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  gap: 64px;
   width: 100%;
 }
 .page_perso .perso__right > div {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  text-align: left;
 }
 .page_perso .perso__right p.attr {
   font-weight: bold;
