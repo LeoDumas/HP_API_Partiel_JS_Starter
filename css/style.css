@@ -244,6 +244,30 @@ footer p {
   padding: 32px;
 }
 
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.filters button {
+  padding: 10px 20px;
+  background-color: var(--gold);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Rubik';
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.filters button:hover {
+  background-color: var(--darkGrey);
+}
+
 @media screen and (max-width: 425px) {
   header {
     width: 90%;

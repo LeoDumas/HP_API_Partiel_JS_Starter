@@ -35,7 +35,7 @@ const displayCharacterDetails = (character) => {
 
         persoContainer.innerHTML = `
             <figure class="perso__left">
-            <img src="${character.image}" alt="${character.name}-img" />
+            <img src="${character.image}" alt="${character.name}-img" >
             <figcaption>${actor}</figcaption>
             </figure>
             <div class="perso__right">
@@ -59,7 +59,7 @@ const displayCharacterDetails = (character) => {
     
     if (houseSection && character.house) {
         houseSection.innerHTML = `
-            <img src="./images/logo/${character.house}.png" alt="${character.house}-logo" />
+            <img src="./images/logo/${character.house}.png" alt="${character.house}-logo" >
         `;
     } else if (houseSection) {
         houseSection.innerHTML = '';
